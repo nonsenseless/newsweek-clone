@@ -18,7 +18,6 @@
 
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
-
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -27,19 +26,38 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Project name</a>
+        <a class="navbar-brand" href="#"></a>
       </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+      <div id="navbar" class="collapse navbar-collapse col-md-6">
+        <ul class="nav navbar-nav categories">
+          <li><a href="#">U.S.</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Tech &amp; Science</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Opinion</a></li>
         </ul>
       </div><!--/.nav-collapse -->
-      </nav>
+      <div class="header-search col-md-1"></div>
+      <div class="header-subscribe col-md-2">
+        <div class="subscribe-icon">
+          <img class="img-circle" src="images/template-subscribe_icon_0.jpg"> <!-- Dear Newsweek, what on Earth is this supposed to be? -->
+        </div>
+        <div class="subscribe-text">
+          <span class="yellow">Subscribe</span> <!-- TODO Non-semantic class. So sue me. Newsweek did it too. -->
+          <span > To Newsweek </span>
+        </div>
+      </div>
+      <div class="edition col-md-1">
+      </div>
+      <div class="signin col-md-2">
+        Sign In
+      </div>
     </div>
+    </nav>
     <div class="container-fluid front-page">
-      <div class="row ">
+      <div class="row first-row">
           <div class="cover col-md-9">
             <div class="cover-story col-md-12 ">
               <figure>
@@ -129,7 +147,7 @@
             <p class="story-summary">Sister of ISIS militant says she “does not want to give up” on her brother.</p>
         </div>
       </div> <!-- End 2nd row -->
-      <div class="row"> <!-- Start 3rd row -->
+      <div class="row other-stories"> <!-- Start 3rd row -->
         <div class="col-md-3 teaser">
           <h2 class="story-category">World</span>
           <h3 class="story-title"><a href="#">U.N.: ISIS Holding 3,500 Slaves Hostage in Iraq</a></h3>
@@ -151,8 +169,8 @@
           <p class="story-summary">The University of Cincinnati has settled with the family of Samuel DuBose after a university police officer shot him during a traffic stop.</p>
         </div>
       </div> <!-- End 3rd row -->
-      <div class="row"> <!-- Start 4th row / carousel -->
-        <div class="magazine-slideshow col-md-12">
+      <div class="row magazine-slideshow"> <!-- Start 4th row / carousel -->
+        <div class=" col-md-12">
           <div id="carousel-stories" class="carousel slide" data-ride="carousel">
 
           <!-- Wrapper for slides -->

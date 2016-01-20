@@ -4,10 +4,11 @@ Fonts
 
 @font-face {
   font-family:'Genericons';
-src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/Genericons.eot");
-src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/Genericons.eot?#iefix") format("embedded-opentype"),  url("http://s.newsweek.com/sites/all/themes/lemon/fonts/Genericons.woff") format("woff"),
-url("http://s.newsweek.com/sites/all/themes/lemon/fonts/Genericons.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/Genericons.svg#Genericons") format("svg");
-font-weight:normal;font-style:normal;}
+  src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/Genericons.eot");
+  src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/Genericons.eot?#iefix") format("embedded-opentype"),
+  url("http://s.newsweek.com/sites/all/themes/lemon/fonts/Genericons.woff") format("woff")
+  url("http://s.newsweek.com/sites/all/themes/lemon/fonts/Genericons.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/Genericons.svg#Genericons") format("svg");
+  font-weight:normal;font-style:normal;}
 
 @font-face {
   font-family:'playfair_displayblack'; src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-black-webfont.eot");
@@ -19,34 +20,51 @@ font-weight:normal;font-style:normal;}
   src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-blackitalic-webfont.eot?#iefix") format("embedded-opentype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-blackitalic-webfont.woff2") format("woff2"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-blackitalic-webfont.woff") format("woff"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-blackitalic-webfont.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-blackitalic-webfont.svg#playfair_displayblack_italic") format("svg"); font-weight:normal;font-style:normal;
   }
 
-@font-face { font-family:'playfair_displaybold'; src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.eot");
-src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.woff2") format("woff2"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.woff") format("woff"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold") format("svg"); font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'playfair_displaybold'; src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.eot");
+  src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.woff2") format("woff2"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.woff") format("woff"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold") format("svg"); font-weight:normal;font-style:normal;
+}
 
-@font-face {font-family:'playfair_displaybold_italic'; src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.eot"); src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.woff2") format("woff2"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.woff") format("woff"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic") format("svg"); font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'playfair_displaybold_italic'; src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.eot"); src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.woff2") format("woff2"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.woff") format("woff"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic") format("svg"); font-weight:normal;font-style:normal;}
 
-@font-face{font-family:'playfair_displayregular'; src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.eot"); src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.woff2") format("woff2"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.woff") format("woff"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular") format("svg"); font-weight:normal; font-style:normal;}
+@font-face {
+  font-family:'playfair_displayregular'; src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.eot"); src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.woff2") format("woff2"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.woff") format("woff"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular") format("svg"); font-weight:normal; font-style:normal;
+}
 
-@font-face{font-family:'playfair_displayitalic'; src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.eot"); src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.eot?#iefix") format("embedded-opentype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.woff2") format("woff2"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.woff") format("woff"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic") format("svg"); font-weight:normal; font-style:normal;}
+@font-face {
+  font-family:'playfair_displayitalic'; src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.eot"); src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.eot?#iefix") format("embedded-opentype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.woff2") format("woff2"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.woff") format("woff"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.ttf") format("truetype"), url("http://s.newsweek.com/sites/all/themes/lemon/fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic") format("svg"); font-weight:normal; font-style:normal;
+}
 
-@font-face{font-family:'source_sans_problack';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.svg#source_sans_problack") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'source_sans_problack';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-black-webfont.svg#source_sans_problack") format("svg");font-weight:normal;font-style:normal;}
 
-@font-face{font-family:'source_sans_problack_italic';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.svg#source_sans_problack_italic") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'source_sans_problack_italic';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-blackitalic-webfont.svg#source_sans_problack_italic") format("svg");font-weight:normal;font-style:normal;}
 
-@font-face{font-family:'source_sans_probold';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.svg#source_sans_probold") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'source_sans_probold';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bold-webfont.svg#source_sans_probold") format("svg");font-weight:normal;font-style:normal;}
 
-@font-face{font-family:'source_sans_probold_italic';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.svg#source_sans_probold_italic") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'source_sans_probold_italic';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-bolditalic-webfont.svg#source_sans_probold_italic") format("svg");font-weight:normal;font-style:normal;}
 
-@font-face{font-family:'source_sans_prosemibold';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'source_sans_prosemibold';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold") format("svg");font-weight:normal;font-style:normal;}
 
-@font-face{font-family:'source_sans_proSBdIt';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.svg#source_sans_proSBdIt") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'source_sans_proSBdIt';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-semibolditalic-webfont.svg#source_sans_proSBdIt") format("svg");font-weight:normal;font-style:normal;}
 
-@font-face{font-family:'source_sans_proregular';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'source_sans_proregular';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular") format("svg");font-weight:normal;font-style:normal;}
 
-@font-face{font-family:'source_sans_proitalic';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.svg#source_sans_proitalic") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'source_sans_proitalic';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-italic-webfont.svg#source_sans_proitalic") format("svg");font-weight:normal;font-style:normal;}
 
-@font-face{font-family:'source_sans_prolight';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.svg#source_sans_prolight") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'source_sans_prolight';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-light-webfont.svg#source_sans_prolight") format("svg");font-weight:normal;font-style:normal;}
 
-@font-face{font-family:'source_sans_prolight_italic';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.svg#source_sans_prolight_italic") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+  font-family:'source_sans_prolight_italic';src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.eot");src:url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.eot?#iefix") format("embedded-opentype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.woff2") format("woff2"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.woff") format("woff"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.ttf") format("truetype"),url("http://s.newsweek.com/sites/all/themes/lemon/fonts/sourcesanspro-lightitalic-webfont.svg#source_sans_prolight_italic") format("svg");font-weight:normal;font-style:normal;}
 
 /*=============
 Layout
@@ -56,22 +74,112 @@ Layout
   box-sizing: border-box;
 }
 
+/*=============
+Header
+=============*/
+
 .navbar-header {
   height: 80px;
+}
+
+.navbar-brand {
+  height: 80px;
+  width: 275px;
+  background: url(../images/logo.svg) center no-repeat;
+  display: block;
+}
+
+#navbar {}
+
+
+#navbar ul, .signin {
+  padding-top: 30px;
+  margin-left: 10px;
+  font-family: "source_sans_prosemibold";
+  font-size: 14px;
+
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
+
+}
+
+#navbar ul li a {
+  color: white;
+  margin: auto 0 auto 20px;
+  padding: 0px;
+  font-weight: 900;
+}
+
+.header-search {
+  background-image: url(../images/sprites/sprite-buttons.png);
+  background-position: -17px -3px;
+  background-size: 240px;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 46px;
+  display: inline-block;
+}
+
+.header-subscribe {
+  color: white;
+  height: 80px;
+  padding: 15px 0px 0px 0px;
+}
+
+.subscribe-icon {
+  display: inline-block;
+
+}
+
+.subscribe-icon img {
+  height: 40px;
+  width: auto;
+    margin-top: -20px;
+}
+
+.subscribe-text {
+  font-family: "source_sans_prosemibold";
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+}
+
+
+.subscribe-text .yellow {
+  display: inline-block;
+  width: 100%;
+  color: yellow;
+}
+
+.edition {
+  background-image: url(../images/sprites/sprite-buttons.png);
+  background-position: 0 -240px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background-size: 240px;
+  background-repeat: no-repeat;
+}
+
+.signin {
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+/*=============
+Top Stories
+=============*/
+
+.first-row {
+  margin: 0 70px 0 70px;
 }
 
 .front-page {
   position: relative;
   top: 82px;
   margin: auto;
-}
-
-.cover {
-
-}
-
-.cover-story {
-
 }
 
 .cover-photo {
@@ -236,8 +344,16 @@ Layout
   font-family: "source_sans_probold";
   font-size: 16px;
   line-height: 50px;
+  color: #757575;
+  background-color: #e5e5e5;
 }
+/*=============
+Top Stories
+=============*/
 
+.top-stories, .other-stories, .magazine-slideshow {
+  margin: 10px 90px;
+}
 
 /*=============
 Carousel
