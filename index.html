@@ -13,49 +13,60 @@
       <![endif]-->
     <title>Newsweek - News, Analysis, Politics, Business, Technology, Lifestyle, Photos, and Video</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/main.css">
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"></a>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse col-md-6">
-        <ul class="nav navbar-nav categories">
-          <li><a href="#">U.S.</a></li>
-          <li><a href="#">World</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">Tech &amp; Science</a></li>
-          <li><a href="#">Culture</a></li>
-          <li><a href="#">Sports</a></li>
-          <li><a href="#">Opinion</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-      <div class="header-search col-md-1"></div>
-      <div class="header-subscribe col-md-2">
-        <div class="subscribe-icon">
-          <img class="img-circle" src="images/template-subscribe_icon_0.jpg"> <!-- Dear Newsweek, what on Earth is this supposed to be? -->
-        </div>
-        <div class="subscribe-text">
-          <span class="yellow">Subscribe</span> <!-- TODO Non-semantic class. So sue me. Newsweek did it too. -->
-          <span > To Newsweek </span>
-        </div>
-      </div>
-      <div class="edition col-md-1"></div>
-      <div class="signin col-md-2">
-        Sign In
-      </div>
-    </div>
-    </nav>
     <div class="container-fluid front-page">
+      <nav class="navbar navbar-inverse navbar-fixed-top  navbar-header">
+        <div class="row">
+          <div class="col-md-2">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+          </div>
+          <div class="col-md-10">
+            <div id="navbar" class="collapse navbar-collapse">
+              <div class="row">
+                <div class="col-md-8">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#">U.S.</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Tech &amp; Science</a></li>
+                    <li><a href="#">Culture</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Opinion</a></li>
+                  </ul>
+                  <div class="header-search"></div>
+                </div>
+                <div class="col-md-4">
+                  <div class="row">
+                    <div class=" col-md-6">
+                      <div class="header-subscribe">
+                        <div class="subscribe-icon">
+                          <img class="img-circle" src="images/template-subscribe_icon_0.jpg"> <!-- Dear Newsweek, what on Earth is this supposed to be? -->
+                        </div>
+                        <div class="subscribe-text">
+                          <span class="yellow">Subscribe</span> <!-- TODO Non-semantic class. So sue me. Newsweek did it too. -->
+                          <span > To Newsweek </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="edition col-md-2"></div>
+                    <div class="signin col-md-3">Sign In</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End Row -->
+      </nav>
       <div class="row first-row">
           <div class="cover col-md-9">
             <div class="cover-story col-md-12">
@@ -281,17 +292,19 @@
     <div class="row bigshots">
       <div class="col-md-12 wrapper">
         <div class="row">
-          <div class="caption col-md-3">
+          <div class="col-md-3">
             <img src="images/bigshots-logo.svg">
-            <h2>The Latest News in Pictures</h2>
-            <button type="button" class="btn btn-lg">Launch Slideshow</button>
-            <div class="bullet-point">
-              <ul>
-                <li>ISIS in Asia</li>
-              </ul>
+            <div class="caption pull-right">
+              <h2>The Latest News in Pictures</h2>
+              <button type="button" class="btn btn-lg">Launch Slideshow</button>
+              <div class="bullet-point">
+                <ul>
+                  <li>ISIS in Asia</li>
+                </ul>
+              </div>
+              <p class="story-summary">Jakarta, Indonesia—Police take cover as they pursue suspects after a series of bombs killed at least two</p>
+              <div class="bigshots-count">27 photos</div>
             </div>
-            <p class="story-summary">Jakarta, Indonesia—Police take cover as they pursue suspects after a series of bombs killed at least two</p>
-            <div class="bigshots-count">27 photos</div>
           </div>
           <div class="shot col-md-9">
             <img src="images/isis-asia.jpg">
@@ -301,7 +314,7 @@
     </div>
     <div class="row this-week">
       <div class="issue col-md-9">
-        <h2 class="story-category"><span>This Week</span></h2>
+        <h2 class="story-category "><span>This Week</span></h2>
         <h3 class="story-title"><a href="#">January 22 Issue</a></h3>
         <div class="row">
           <div class="col-md-6">
@@ -369,13 +382,14 @@
                 <li class="tumblr"><a href="#"></a></li>
                 <li class="linkedin"><a href="#"></a></li>
               </ul>
-              <form class="subscribe pull-right" action="www.example.com/subscribe.php" method="get">
-                <input type="email" placeholder="Enter Your Email"/>
-                <input type="submit" name="Sign Up" value="Sign Up"/>
+              <form class="subscribe pull-right form-inline" action="www.example.com/subscribe.php" method="get">
+                <label class="sr-only">Enter your email to subscribe</label>
+                <input type="email" class="form-control email" placeholder="Enter Your Email"/>
+                <input type="submit" class="form-control btn" name="Sign Up" value="Sign Up"/>
               </form>
             </div>
             <div class="recent-issues col-md-12">
-              <div class="col-md-12">Recent Issues</div>
+              <h2 class="col-md-12">Recent Issues</h2>
               <div class="row">
                 <div class="col-md-3 issue1">
                   <img class="img-responsive recent-cover" src="images/recent-covers/20160115cover1800-x-2400.jpg">
