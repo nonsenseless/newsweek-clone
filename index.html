@@ -49,8 +49,7 @@
           <span > To Newsweek </span>
         </div>
       </div>
-      <div class="edition col-md-1">
-      </div>
+      <div class="edition col-md-1"></div>
       <div class="signin col-md-2">
         Sign In
       </div>
@@ -59,19 +58,23 @@
     <div class="container-fluid front-page">
       <div class="row first-row">
           <div class="cover col-md-9">
-            <div class="cover-story col-md-12 ">
+            <div class="cover-story col-md-12">
               <figure>
-                <img class="cover-photo img-responsive col-md-12" src="images/117clinton.jpg">
-                <figcaption class="cover-teaser">
-                  <h2 class="story-category">U.S.</span>
-                  <h3 class="story-title"><a href="#">Clinton's Embrace of Obama Holds Risks For Election</a></h3>
-                  <p class="story-summary">The strategy could pose problems for Clinton in the long run as Republicans look for fodder to portray her as representing Obama's third term.</p>
-                  <div class="bullet-point">
-                    <ul>
-                      <li><a href="#"> Clinton Says Sanders Was Overly Critical of Obama</a></li>
-                    </ul>
-                  </div>
-                </figcaption>
+                <div class="picture-frame col-md-12">
+                  <img class="cover-photo img-responsive" src="images/117clinton.jpg">
+                </div>
+                <div class="col-md-12">
+                  <figcaption class="cover-teaser">
+                    <h2 class="story-category">U.S.</span>
+                    <h3 class="story-title"><a href="#">Clinton's Embrace of Obama Holds Risks For Election</a></h3>
+                    <p class="story-summary">The strategy could pose problems for Clinton in the long run as Republicans look for fodder to portray her as representing Obama's third term.</p>
+                    <div class="bullet-point">
+                      <ul>
+                        <li><a href="#"> Clinton Says Sanders Was Overly Critical of Obama</a></li>
+                      </ul>
+                    </div>
+                  </figcaption>
+                </div>
               </figure>
             </div>
             <div class="cover-teasers col-md-12">
@@ -88,7 +91,7 @@
                     </ul>
                   </div>
               </div>
-              <div class="teaser col-md-6">
+              <div class="teaser sponsor-insight col-md-6">
                 <figure>
                   <img class="teaser-photo img-responsive" src="images/coba_2.jpg" alt="A portrait view of a business school at night. It looks well-manicured and sterile.">
                 </figure>
@@ -170,7 +173,11 @@
         </div>
       </div> <!-- End 3rd row -->
       <div class="row magazine-slideshow"> <!-- Start 4th row / carousel -->
-        <div class=" col-md-12">
+        <div class="col-md-12">
+          <div class="col-md-12 magazine-highlights">
+            <span class="text-decoration"></span>
+            <span class="in-the-magazine">In The Magazine</span>
+          </div>
           <div id="carousel-stories" class="carousel slide" data-ride="carousel">
 
           <!-- Wrapper for slides -->
@@ -277,7 +284,7 @@
           <div class="caption col-md-3">
             <img src="images/bigshots-logo.svg">
             <h2>The Latest News in Pictures</h2>
-            <button type="button" class="btn btn-lg">Launch Slideshow </button>
+            <button type="button" class="btn btn-lg">Launch Slideshow</button>
             <div class="bullet-point">
               <ul>
                 <li>ISIS in Asia</li>
@@ -294,7 +301,7 @@
     </div>
     <div class="row this-week">
       <div class="issue col-md-9">
-        <h2 class="story-category">This Week</span>
+        <h2 class="story-category"><span>This Week</span></h2>
         <h3 class="story-title"><a href="#">January 22 Issue</a></h3>
         <div class="row">
           <div class="col-md-6">
@@ -303,9 +310,9 @@
           <div class="col-md-6">
             <blockquote>
               <p> Every shared car can remove about 10 to 30 privately owned cars from the street.</p>
-              <cite>-Carlo Ratti, Director of MIT's Senseable City Lab</cite>
+              <span class="byline">-Carlo Ratti, Director of MIT's Senseable City Lab</span>
             </blockquote>
-            <div >
+            <div class="features">
               <h2> Inside This Issue </h2>
               <ul>
                 <li class="feature"><a href="#">What the World Will Look Like Without Drivers</a></li>

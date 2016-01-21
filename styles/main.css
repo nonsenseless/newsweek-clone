@@ -173,7 +173,7 @@ Top Stories
 =============*/
 
 .first-row {
-  margin: 0 70px 0 70px;
+  margin: 0 50px 0 50px;
 }
 
 .front-page {
@@ -182,24 +182,43 @@ Top Stories
   margin: auto;
 }
 
+.cover-story {
+  padding: 0;
+  margin-bottom: 160px;
+}
+
+.picture-frame {
+  padding: 0;
+}
+
+
 .cover-photo {
   width: 100%;
   padding: 0 0 0 0;
+}
 
+.cover-teasers {
+  border-top: 1px solid #e5e5e5;
+}
+
+.cover-teasers .teaser:first-child {
+  border-right: 1px solid #e5e5e5;
+}
+
+.cover-teasers .teaser {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .cover-teaser {
   text-align: center;
   position: absolute;
-  bottom: 0px;
+  bottom: -110px;
   left: 0;
   right: 0;
 
-
   background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 100%);
   border-top: 4px solid red;
-
-
 }
 
 .story-category {
@@ -299,6 +318,14 @@ Top Stories
   line-height: 20px;
 }
 
+.sponsor-insight {
+  background-color: rgba(205, 240, 255, .2);
+}
+
+.latest-headlines {
+  padding: 10px 0px 0px 19px;
+}
+
 .latest-headlines h2 {
   text-transform: uppercase;
   color: #FF0500;
@@ -326,17 +353,22 @@ Top Stories
 .latest-headlines li {
   padding: 15px 0px 15px 1em;
   text-indent: -.9em;
-  font-size: 1em;
+  font-size: 16px;
   width: 100%;
+  border-top: 1px solid #e5e5e5;
+}
+
+.latest-headlines li:first-child {
+  border-top: none;
 }
 
 .latest-headlines li:before {
   content: "■";
-  font-size: 1em;
+  font-size: .625em;
   color: red;
-  vertical-align: bottom;
+  vertical-align: text-top;
   position: relative;
-  left: -10px;
+  left: -5px;
 }
 
 .latest-headlines button {
@@ -355,9 +387,71 @@ Top Stories
   margin: 10px 90px;
 }
 
+.top-stories, .other-stories {
+  border-top: 1px solid #e5e5e5;
+}
+
+.top-stories {
+  padding-top: 10px;
+}
+
+.top-stories .teaser  {
+  min-height: 500px;
+  border-right: 1px solid #e5e5e5;
+}
+
+.top-stories .teaser:last-child {
+  border-right: none;
+}
+
+.other-stories .teaser {
+  min-height: 250px;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.other-stories .teaser:last-child {
+  border-right: none;
+}
+
+
+
 /*=============
 Carousel
 =============*/
+
+.magazine-highlights {
+  margin: 40px 0px 20px 0px;
+}
+
+.text-decoration {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #FF0500;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+
+}
+
+.in-the-magazine {
+  background-color: white;
+  display: inline-block;
+  font-family: "playfair_displayregular";
+  font-size: 19px;
+  letter-spacing: .25px;
+  text-transform: uppercase;
+  color: #FF0500;
+  padding: 0px 20px;
+
+  position: relative;
+  left: 40%;
+
+}
+
 .carousel-control {
   background-color: rgba(255, 5, 0, 1);
   width: 60px;
@@ -404,11 +498,184 @@ Bigshots
   margin: 40px 75px;
 }
 
+.bigshots h2 {
+  color: #00B7FF;
+  font-family: "playfair_displayregular";
+  font-size: 19px;
+  letter-spacing: .25px;
+  text-transform: uppercase;
+}
+
+.bigshots button {
+  color: white;
+  background-color: #00B7FF;
+  border-radius: 0;
+  font-family: "source_sans_probold";
+  font-size: 16px;
+}
+
+.bigshots .bullet-point {
+  font-family: "source_sans_prosemibold";
+  font-size: 16px;
+  color: white;
+}
+
+.bigshots .story-summary {
+  font-family: "source_sans_proregular";
+  font-size: 16px;
+  color: rgb(153, 153, 153);
+}
+
+.bigshots-count {
+  font-family: "source_sans_proregular";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
 /*=============
 This Week
 =============*/
+.this-week {
+  margin: 0px 65px;
+}
+
 .issue .story-category, .issue .story-title {
   text-align: center;
+}
+
+.this-week .story-category span {
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-family: "source_sans_probold";
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+
+/* I copied this section verbatim from newsweek's actual website. */
+.story-category span::before{
+  border-bottom-color: #ff0500;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0
+  right: 0
+  top: -10px;
+}
+
+.story-category span::after{
+  border-bottom-color: #ff0500;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0
+  right: 0
+  top: -10px;
+}
+
+.story-title a {
+  color: black;
+  font-family: "source_sans_problack";
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.this-week blockquote {
+  font-family: "playfair_displayregular";
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.this-week .byline {
+  font-family: "playfair_displayregular";
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.this-week .features h2 {
+  color: red;
+  font-family: "source_sans_probold";
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.this-week .feature:hover {
+  text-decoration: underline;
+}
+
+.this-week  .features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.this-week .features li {
+  padding: 15px 0px 15px 1em;
+  text-indent: -.9em;
+  font-size: 16px;
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+}
+
+.features a {
+  color: black;
+}
+
+.this-week .features li:first-child {
+  border-top: none;
+}
+
+.this-week .features li:before {
+  content: "■";
+  font-size: .825em;
+  color: red;
+  vertical-align: text-top;
+  position: relative;
+  left: -5px;
+}
+
+.this-week .features button {
+  width: 45%;
+  font-family: "source_sans_probold";
+  font-size: 16px;
+  line-height: 50px;
+  color: #757575;
+  background-color: #e5e5e5;
+}
+
+.most-read {
+  font-family: "source_sans_probold";
+  font-size: 16px;
+}
+
+.most-read .tab-pane ul {
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+.most-read .tab-pane li {
+  margin: 25px 0px 25px 0px;
+
+  padding-left: 2em;
+  text-indent: -1em;
+}
+
+.most-read .tab-pane li:before {
+  content: "■";
+  color: #00B7FF;
+  vertical-align: center;
+  font-size: .75em;
+}
+
+.most-read li:hover {
+  text-decoration: underline;
 }
 
 /*=============
@@ -421,8 +688,14 @@ footer {
   padding-top: 30px;
 }
 
+
+
 nav a {
   display: block;
+  font-family: "source_sans_prosemibold";
+  font-size: 16px;
+  color: white;
+  margin: 10px 0px;
 }
 
 .social-media ul {
@@ -472,4 +745,16 @@ nav a {
 
 .recent-cover .features {
   /* Set a max width equal to the max-width of the cover */
+}
+
+.recent-issues .issue-date a {
+  font-family: "source_sans_prosemibold";
+  font-size: 16px;
+  color: white;
+}
+
+.recent-issues .feature a {
+  color: rgb(85, 85, 85);
+  font-family: "source_sans_proregular";
+  font-size: 16px;
 }
